@@ -12,11 +12,11 @@ export const Counter = ({value}) => {
     const [ counter, setCounter ] = useState( value ) // se pone el valor inicial por lo que tenemos en el padre y que despues lo toma como valor inicial
 
 
-    const handleAdd = () =>{
+    const Sumar = () =>{
         // cuando se manda a llamar un setCounter es decirle a react que el estado cambio.
         setCounter(counter + 1)
     }
-    const handleLess = () =>{
+    const Restar = () =>{
         // cuando se manda a llamar un setCounter es decirle a react que el estado cambio.
         setCounter(counter - 1)
     }
@@ -27,9 +27,10 @@ export const Counter = ({value}) => {
         <>
         <h1> CouterApp</h1>
         <h2> {counter} </h2>
-        <button onClick={ handleAdd }> +1 </button>
+        {/*Cuando haga onClick que realice esa funcion*/}
+        <button onClick={ Restar }> -1 </button>
         <button onClick={ handleReset }> reset </button>
-        <button onClick={ handleLess }> -1 </button>
+        <button onClick={ Sumar }> +1 </button>
         </>
     )
 };

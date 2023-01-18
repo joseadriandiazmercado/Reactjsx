@@ -9,12 +9,15 @@
 import React from 'react'; // importacio de react
 import ReactDOM from 'react-dom/client'; // herramienta para redendizarlo, como estamos en web, debe de ser DOM (Sumamente importante)
 import {Counter} from './CounterApp'
+import {FirstApp} from './FirstApp';
+
+//Importacion de la hoja de estilos
 import './styles.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     //  hay otros modos pero, siempre se aconseja que se trabaje en el modo estrico para que mencione si hay un error
     <React.StrictMode>
-        <Counter value={0}/>
+        <FirstApp/>
         </React.StrictMode>
 );

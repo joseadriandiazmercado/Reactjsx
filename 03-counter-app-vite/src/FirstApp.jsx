@@ -18,7 +18,8 @@ export const FirstApp = () =>{
     return (
     <> 
     {/*Monstrar una funcion  */}
-    <h1>{GetSuma(9.9)}</h1>
+    <h1>{Mensaje.mensaje}</h1>
+    <h1>{Mensaje.title}</h1>
     {/* <h1> {title} </h1> */}
     {/* <code> {JSON.stringify(Mensaje)} </code> */}
     {/* <p> {subTitle} </p> */}

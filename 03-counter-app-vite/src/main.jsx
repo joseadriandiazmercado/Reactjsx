@@ -8,7 +8,7 @@
 // imr importacion rapida
 import React from 'react'; // importacio de react
 import ReactDOM from 'react-dom/client'; // herramienta para redendizarlo, como estamos en web, debe de ser DOM (Sumamente importante)
-import {Counter} from './CounterApp'
+// import {Counter} from './CounterApp'
 import {FirstApp} from './FirstApp';
 
 //Importacion de la hoja de estilos

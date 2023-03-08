@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import PropTypes from "prop-types";
 
-
+// console.log(albums)
 
 
 export const Counter = ({value}) => {

@@ -1,0 +1,10 @@
+1.console comand: "yarn create vite"
+
+2.Colocar nombre del proyecto
+
+3.escoger tecnologia: "react"
+4.escoger: JavaScript
+
+5. acceder a al directorio del proyecto y ejecutar el comando: "yarn install"
+
+6. abrir el programa con: 'code .' y ejecutar el comando de: "yarn run dev" para abrir la aplicacion

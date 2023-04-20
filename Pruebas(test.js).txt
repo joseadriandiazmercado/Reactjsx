@@ -1,0 +1,7 @@
+1. installar Jest
+2. yarn add --dev jest
+3. colocar "test": "jest --watchAll" en package.json
+4. ejecutar en la terminal o consola "yarn test"
+5. presionar tecla "p"
+6. pedira el nombre del archivo (solo el nombre, sin extension "js,c++" nada)
+7. Y listin

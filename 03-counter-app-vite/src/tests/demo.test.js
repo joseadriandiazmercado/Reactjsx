@@ -13,8 +13,6 @@ describe('Pruebas en <DemoComponent', () => { // esto es para describir donde se
     
         //3. Observar el comportamiento...... esperando
         expect(mensaje).toBe(mensaje2);
-    
+        
     })
-    
-
  })

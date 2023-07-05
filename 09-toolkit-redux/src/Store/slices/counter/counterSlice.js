@@ -4,6 +4,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 export const counterSlice = createSlice({
     
+  //!Nombre del 'type' que se enceuntra con el payload y type.
   name: 'counter',
   initialState:{
     counter: 10

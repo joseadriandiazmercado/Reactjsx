@@ -16,7 +16,6 @@ function App() {
   //!Obtener el valor del state
   const {counter} = useSelector(state => state.counter)
   const dispatch = useDispatch();
-
   return (
     <>
       <div>

@@ -8,14 +8,15 @@ import { Provider } from 'react-redux'
 //store encontrada en la carpeta de Store
 import { store } from './Store/store.js'
 import { PokemonApp } from './PokemonApp.jsx'
-
+import { TodoApp } from './TodoApp'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       {/* <App /> */}
-      <PokemonApp/>
+      {/* <PokemonApp/> */}
+  <TodoApp></TodoApp>
     </Provider>
   </React.StrictMode>,
 )
